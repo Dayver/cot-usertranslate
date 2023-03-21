@@ -1,23 +1,24 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+# Files which should be ignored by Git
+/datas/config.php
+/datas/urltrans.dat
+/datas/avatars/*
+!/datas/avatars/index.html
+/datas/cache/*
+!/datas/cache/.htaccess
+!/datas/cache/index.html
+/datas/exflds/*
+!/datas/exflds/index.html
+/datas/photos/*
+!/datas/photos/index.html
+/datas/thumbs/*
+!/datas/thumbs/index.html
+/datas/users/*
+!/datas/users/index.html
+.DS_Store
+.htaccess
+.tags
+.tags_sorted_by_file
+*.sublime*
+.idea
+nbproject
+Thumbs.db
