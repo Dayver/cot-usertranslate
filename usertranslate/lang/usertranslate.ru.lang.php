@@ -1,10 +1,26 @@
 <?php
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Отображает последние переводы страниц пользователя';
+/**
+ * Plugin Config
+ */
 
 $L['cfg_countonpage'] = "Количество выводимых записей на страницу";
+$L['cfg_countonpage_hint'] = "";
 $L['cfg_ajax'] = "Включить AJAX навигацию";
+$L['cfg_ajax_hint'] = "";
+$L['cfg_timeback'] = 'Период для подсчета статистики';
+$L['cfg_timeback_hint'] = '(в сутках)';
+
+/**
+ * Plugin Title & Subtitle
+ */
+
+$L['info_desc'] = 'Отображает последние переводы страниц пользователя';
+
+/**
+ * Plugin Body
+ */
 
 $L['plu_none_usr_pag_translate'] = 'Пользователь не перевел ни одной страницы';
 $L['plu_user_not_found'] = 'Для запрошенных переводов пользователя не найден этого пользователь';
