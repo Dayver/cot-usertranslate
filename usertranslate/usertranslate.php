@@ -13,7 +13,7 @@ if (cot_module_active('page') && cot_plugin_active('i18n'))
 	require_once cot_incfile('page', 'module');
 	require_once cot_incfile('i18n', 'plug');
 
-	$work_now = $t->hasTag('USERS_DETAILS_USERTRANSLATE');
+	$work_now = !COT_AJAX ? $t->hasTag('USERS_DETAILS_USERTRANSLATE') : false;
 	if ($work_now || COT_AJAX)
 	{
 		$usertranslate = new XTemplate(cot_tplfile('usertranslate', 'plug'));
