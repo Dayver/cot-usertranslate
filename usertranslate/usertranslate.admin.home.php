@@ -9,7 +9,7 @@ defined('COT_CODE') or die('Wrong URL');
 global $Ls;
 
 require_once cot_langfile('usertranslate', 'plug');
-require_once cot_incfile('usertranslate', 'plug');
+#require_once cot_incfile('usertranslate', 'plug');
 
 $timeback_interval = isset(cot::$cfg['plugin']['usertranslate']['timeback']) ? cot::$cfg['plugin']['usertranslate']['timeback'] : 7;
 $timeback_interval_str = cot_declension($timeback_interval, $Ls['Days']);
