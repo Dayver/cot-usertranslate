@@ -1,7 +1,7 @@
 <?php
 /* ====================
 [BEGIN_COT_EXT]
-Name=Recent user translated pages
+Name=User translate
 Category=misc-ext
 Description=Will display the newest translated pages from the user
 Version=0.0.2
@@ -23,4 +23,4 @@ ajax=02:radio::1:Turn on AJAX navigation
 timeback=03:select:2,3,5,7,10,15,30:7:Period for stats count (in days)
 [END_COT_EXT_CONFIG]
 ==================== */
-defined('COT_CODE') or die('Wrong URL.');
+defined('COT_CODE') or die('Wrong URL');

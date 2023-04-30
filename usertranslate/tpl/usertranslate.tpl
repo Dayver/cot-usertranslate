@@ -3,7 +3,7 @@
 
 	<!-- BEGIN: TRANSLATE -->
 	{UPT_AJAX_BEGIN}
-
+		
 		<!-- BEGIN: ROW -->
 		{UPT_DATE|cot_date('d.m.Y H:i:s', $this)}: <a href="{UPT_PAG_CATURL}">{UPT_PAG_CATTITLE}</a> | <a href="{UPT_URL}">{UPT_TITLE}</a> -> <a href="{UPT_PAG_URL}">{UPT_PAG_SHORTTITLE}</a><br />
 		<!-- END: ROW -->
